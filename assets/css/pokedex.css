@@ -152,6 +152,19 @@
     }
 }
 
+.status {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin-top: 0.3rem;
+    border: #fff 1px solid;
+}
+
+.status span {
+    color: #fff;
+}
+
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
